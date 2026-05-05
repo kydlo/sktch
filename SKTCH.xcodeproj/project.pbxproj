@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		055D1EC5E09CAEF0E2C30A10 /* DrawingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8328847D53D3D1536A98462 /* DrawingParameters.swift */; };
+		1D1C2F459F983C8ED3FAE94C /* DrawingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590344C496DA5D5558ADB69E /* DrawingPoint.swift */; };
+		5B1E6CE1804B092F8744C073 /* DrawingParametersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2336E3E080D777AD354F63 /* DrawingParametersTests.swift */; };
 		69E40E071E0B57B28DD94C77 /* SKTCHApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9613B988F401498102D85998 /* SKTCHApp.swift */; };
 		84844E4A1111296218E92C1F /* SKTCHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D842057E7F4E20FCC5AE899F /* SKTCHTests.swift */; };
+		E332AE13D76637F7BF88E578 /* PresetCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F40C944C39DA6384FFEC86 /* PresetCategory.swift */; };
+		F5580CFDD36150E314C87F98 /* Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C93C504CDC03E56F01D473C /* Preset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,9 +28,14 @@
 
 /* Begin PBXFileReference section */
 		50051B7412E516D8CF075B01 /* SKTCH.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SKTCH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		590344C496DA5D5558ADB69E /* DrawingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPoint.swift; sourceTree = "<group>"; };
+		8C93C504CDC03E56F01D473C /* Preset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preset.swift; sourceTree = "<group>"; };
 		9613B988F401498102D85998 /* SKTCHApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTCHApp.swift; sourceTree = "<group>"; };
 		9BC684E4F10953B3BF7C438D /* SKTCHTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SKTCHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D842057E7F4E20FCC5AE899F /* SKTCHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTCHTests.swift; sourceTree = "<group>"; };
+		E5F40C944C39DA6384FFEC86 /* PresetCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetCategory.swift; sourceTree = "<group>"; };
+		EE2336E3E080D777AD354F63 /* DrawingParametersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingParametersTests.swift; sourceTree = "<group>"; };
+		F8328847D53D3D1536A98462 /* DrawingParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -48,6 +58,8 @@
 		626B61BFA01CEFC06A52A923 /* Canvas */ = {
 			isa = PBXGroup;
 			children = (
+				F8328847D53D3D1536A98462 /* DrawingParameters.swift */,
+				590344C496DA5D5558ADB69E /* DrawingPoint.swift */,
 			);
 			path = Canvas;
 			sourceTree = "<group>";
@@ -55,6 +67,7 @@
 		6A23A817AE6586F1B873BF6B /* SKTCHTests */ = {
 			isa = PBXGroup;
 			children = (
+				EE2336E3E080D777AD354F63 /* DrawingParametersTests.swift */,
 				D842057E7F4E20FCC5AE899F /* SKTCHTests.swift */,
 			);
 			path = SKTCHTests;
@@ -106,6 +119,8 @@
 		CE114C9D1A45906DB119DCF9 /* Presets */ = {
 			isa = PBXGroup;
 			children = (
+				8C93C504CDC03E56F01D473C /* Preset.swift */,
+				E5F40C944C39DA6384FFEC86 /* PresetCategory.swift */,
 				23DBEAF5305FA7B4002624FF /* Connected */,
 				89A71BC6A22DCD4CD1C13C8A /* Expressive */,
 				CB07BE27CC5EAC8A95D5F6EA /* Geometric */,
@@ -212,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1E6CE1804B092F8744C073 /* DrawingParametersTests.swift in Sources */,
 				84844E4A1111296218E92C1F /* SKTCHTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				055D1EC5E09CAEF0E2C30A10 /* DrawingParameters.swift in Sources */,
+				1D1C2F459F983C8ED3FAE94C /* DrawingPoint.swift in Sources */,
+				F5580CFDD36150E314C87F98 /* Preset.swift in Sources */,
+				E332AE13D76637F7BF88E578 /* PresetCategory.swift in Sources */,
 				69E40E071E0B57B28DD94C77 /* SKTCHApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
