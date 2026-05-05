@@ -3,7 +3,7 @@ import Combine
 
 final class CanvasViewModel: ObservableObject {
     @Published var points: [DrawingPoint] = []
-    @Published var activePreset: Preset = SquarePreset()
+    @Published var activePreset: Preset = PresetRegistry.all[0]
 
     private var strokeBoundaries: [Int] = []
 
