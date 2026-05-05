@@ -8,10 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		055D1EC5E09CAEF0E2C30A10 /* DrawingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8328847D53D3D1536A98462 /* DrawingParameters.swift */; };
+		05AFADDB4460059404778EF7 /* SquarePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78223B67E5AD391DC6D71157 /* SquarePreset.swift */; };
+		0CC0033764FD2F9AC74A488E /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ED28810BB49C51C60BD846 /* CanvasViewModel.swift */; };
 		1D1C2F459F983C8ED3FAE94C /* DrawingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590344C496DA5D5558ADB69E /* DrawingPoint.swift */; };
+		36550F87FD7CB9284CCE1B46 /* TouchOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273AC3E3ADA010BEBAB9D47 /* TouchOverlay.swift */; };
 		5B1E6CE1804B092F8744C073 /* DrawingParametersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2336E3E080D777AD354F63 /* DrawingParametersTests.swift */; };
+		5E1A0ABA0111CDAECE44000F /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE222B58340D8493096F6E60 /* CanvasView.swift */; };
 		69E40E071E0B57B28DD94C77 /* SKTCHApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9613B988F401498102D85998 /* SKTCHApp.swift */; };
 		84844E4A1111296218E92C1F /* SKTCHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D842057E7F4E20FCC5AE899F /* SKTCHTests.swift */; };
+		D504919794F24A7E98D639F7 /* CanvasViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC63DF9ED1D926660C83070 /* CanvasViewModelTests.swift */; };
 		E332AE13D76637F7BF88E578 /* PresetCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F40C944C39DA6384FFEC86 /* PresetCategory.swift */; };
 		F5580CFDD36150E314C87F98 /* Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C93C504CDC03E56F01D473C /* Preset.swift */; };
 /* End PBXBuildFile section */
@@ -27,13 +32,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CC63DF9ED1D926660C83070 /* CanvasViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModelTests.swift; sourceTree = "<group>"; };
 		50051B7412E516D8CF075B01 /* SKTCH.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SKTCH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		590344C496DA5D5558ADB69E /* DrawingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPoint.swift; sourceTree = "<group>"; };
+		78223B67E5AD391DC6D71157 /* SquarePreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquarePreset.swift; sourceTree = "<group>"; };
 		8C93C504CDC03E56F01D473C /* Preset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preset.swift; sourceTree = "<group>"; };
 		9613B988F401498102D85998 /* SKTCHApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTCHApp.swift; sourceTree = "<group>"; };
 		9BC684E4F10953B3BF7C438D /* SKTCHTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SKTCHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A273AC3E3ADA010BEBAB9D47 /* TouchOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchOverlay.swift; sourceTree = "<group>"; };
+		AE222B58340D8493096F6E60 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		D842057E7F4E20FCC5AE899F /* SKTCHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTCHTests.swift; sourceTree = "<group>"; };
 		E5F40C944C39DA6384FFEC86 /* PresetCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetCategory.swift; sourceTree = "<group>"; };
+		E8ED28810BB49C51C60BD846 /* CanvasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
 		EE2336E3E080D777AD354F63 /* DrawingParametersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingParametersTests.swift; sourceTree = "<group>"; };
 		F8328847D53D3D1536A98462 /* DrawingParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,8 +68,11 @@
 		626B61BFA01CEFC06A52A923 /* Canvas */ = {
 			isa = PBXGroup;
 			children = (
+				AE222B58340D8493096F6E60 /* CanvasView.swift */,
+				E8ED28810BB49C51C60BD846 /* CanvasViewModel.swift */,
 				F8328847D53D3D1536A98462 /* DrawingParameters.swift */,
 				590344C496DA5D5558ADB69E /* DrawingPoint.swift */,
+				A273AC3E3ADA010BEBAB9D47 /* TouchOverlay.swift */,
 			);
 			path = Canvas;
 			sourceTree = "<group>";
@@ -67,6 +80,7 @@
 		6A23A817AE6586F1B873BF6B /* SKTCHTests */ = {
 			isa = PBXGroup;
 			children = (
+				4CC63DF9ED1D926660C83070 /* CanvasViewModelTests.swift */,
 				EE2336E3E080D777AD354F63 /* DrawingParametersTests.swift */,
 				D842057E7F4E20FCC5AE899F /* SKTCHTests.swift */,
 			);
@@ -112,6 +126,7 @@
 		CB07BE27CC5EAC8A95D5F6EA /* Geometric */ = {
 			isa = PBXGroup;
 			children = (
+				78223B67E5AD391DC6D71157 /* SquarePreset.swift */,
 			);
 			path = Geometric;
 			sourceTree = "<group>";
@@ -227,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D504919794F24A7E98D639F7 /* CanvasViewModelTests.swift in Sources */,
 				5B1E6CE1804B092F8744C073 /* DrawingParametersTests.swift in Sources */,
 				84844E4A1111296218E92C1F /* SKTCHTests.swift in Sources */,
 			);
@@ -236,11 +252,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1A0ABA0111CDAECE44000F /* CanvasView.swift in Sources */,
+				0CC0033764FD2F9AC74A488E /* CanvasViewModel.swift in Sources */,
 				055D1EC5E09CAEF0E2C30A10 /* DrawingParameters.swift in Sources */,
 				1D1C2F459F983C8ED3FAE94C /* DrawingPoint.swift in Sources */,
 				F5580CFDD36150E314C87F98 /* Preset.swift in Sources */,
 				E332AE13D76637F7BF88E578 /* PresetCategory.swift in Sources */,
 				69E40E071E0B57B28DD94C77 /* SKTCHApp.swift in Sources */,
+				05AFADDB4460059404778EF7 /* SquarePreset.swift in Sources */,
+				36550F87FD7CB9284CCE1B46 /* TouchOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
