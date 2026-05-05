@@ -57,10 +57,6 @@ private struct ShareButton: View {
     }
 }
 
-struct PresetsView: View {
-    let viewModel: CanvasViewModel
-    var body: some View { Text("Presets — coming in Task 8") }
-}
 
 struct ControlsSheet: View {
     let params: DrawingParameters
