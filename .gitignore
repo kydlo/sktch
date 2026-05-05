@@ -1,2 +1,17 @@
+# Worktrees and superpowers
 .worktrees/
 .superpowers/
+
+# Xcode build artifacts
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode user data
+xcuserdata/
+*.xcworkspace/
+
+# macOS
+.DS_Store

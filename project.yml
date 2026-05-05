@@ -28,11 +28,6 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.kydlo.sktch
         PRODUCT_NAME: SKTCH
-        SWIFT_VERSION: "5.9"
-        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
-        TARGETED_DEVICE_FAMILY: "1"
-        ARCHS: arm64
-        VALID_ARCHS: arm64
         GENERATE_INFOPLIST_FILE: YES
         ENABLE_PREVIEWS: YES
         INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
@@ -55,10 +50,6 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.kydlo.sktch.tests
-        SWIFT_VERSION: "5.9"
-        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
-        ARCHS: arm64
-        VALID_ARCHS: arm64
         TEST_HOST: "$(BUILT_PRODUCTS_DIR)/SKTCH.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SKTCH"
         BUNDLE_LOADER: "$(TEST_HOST)"
         GENERATE_INFOPLIST_FILE: YES
