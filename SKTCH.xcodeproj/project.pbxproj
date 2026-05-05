@@ -10,12 +10,15 @@
 		055D1EC5E09CAEF0E2C30A10 /* DrawingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8328847D53D3D1536A98462 /* DrawingParameters.swift */; };
 		05AFADDB4460059404778EF7 /* SquarePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78223B67E5AD391DC6D71157 /* SquarePreset.swift */; };
 		0CC0033764FD2F9AC74A488E /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ED28810BB49C51C60BD846 /* CanvasViewModel.swift */; };
+		0CF13FB8731530A591D234E0 /* MeshPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DC11720ED91A11A3DEFC9 /* MeshPreset.swift */; };
+		195D963168FBFBFCF42A5584 /* TrianglePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A614A6F4DAB1BDC88393D5 /* TrianglePreset.swift */; };
 		1D1C2F459F983C8ED3FAE94C /* DrawingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590344C496DA5D5558ADB69E /* DrawingPoint.swift */; };
 		36550F87FD7CB9284CCE1B46 /* TouchOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273AC3E3ADA010BEBAB9D47 /* TouchOverlay.swift */; };
 		5B1E6CE1804B092F8744C073 /* DrawingParametersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2336E3E080D777AD354F63 /* DrawingParametersTests.swift */; };
 		5E1A0ABA0111CDAECE44000F /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE222B58340D8493096F6E60 /* CanvasView.swift */; };
 		69E40E071E0B57B28DD94C77 /* SKTCHApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9613B988F401498102D85998 /* SKTCHApp.swift */; };
 		84844E4A1111296218E92C1F /* SKTCHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D842057E7F4E20FCC5AE899F /* SKTCHTests.swift */; };
+		8C2A9B759DF5851C45DF1CAE /* CirclePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B04E55892CE127749C57D1 /* CirclePreset.swift */; };
 		D504919794F24A7E98D639F7 /* CanvasViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC63DF9ED1D926660C83070 /* CanvasViewModelTests.swift */; };
 		E332AE13D76637F7BF88E578 /* PresetCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F40C944C39DA6384FFEC86 /* PresetCategory.swift */; };
 		F5580CFDD36150E314C87F98 /* Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C93C504CDC03E56F01D473C /* Preset.swift */; };
@@ -32,9 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12A614A6F4DAB1BDC88393D5 /* TrianglePreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrianglePreset.swift; sourceTree = "<group>"; };
 		4CC63DF9ED1D926660C83070 /* CanvasViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModelTests.swift; sourceTree = "<group>"; };
 		50051B7412E516D8CF075B01 /* SKTCH.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SKTCH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		542DC11720ED91A11A3DEFC9 /* MeshPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshPreset.swift; sourceTree = "<group>"; };
 		590344C496DA5D5558ADB69E /* DrawingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPoint.swift; sourceTree = "<group>"; };
+		76B04E55892CE127749C57D1 /* CirclePreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePreset.swift; sourceTree = "<group>"; };
 		78223B67E5AD391DC6D71157 /* SquarePreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquarePreset.swift; sourceTree = "<group>"; };
 		8C93C504CDC03E56F01D473C /* Preset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preset.swift; sourceTree = "<group>"; };
 		9613B988F401498102D85998 /* SKTCHApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTCHApp.swift; sourceTree = "<group>"; };
@@ -126,7 +132,10 @@
 		CB07BE27CC5EAC8A95D5F6EA /* Geometric */ = {
 			isa = PBXGroup;
 			children = (
+				76B04E55892CE127749C57D1 /* CirclePreset.swift */,
+				542DC11720ED91A11A3DEFC9 /* MeshPreset.swift */,
 				78223B67E5AD391DC6D71157 /* SquarePreset.swift */,
+				12A614A6F4DAB1BDC88393D5 /* TrianglePreset.swift */,
 			);
 			path = Geometric;
 			sourceTree = "<group>";
@@ -254,13 +263,16 @@
 			files = (
 				5E1A0ABA0111CDAECE44000F /* CanvasView.swift in Sources */,
 				0CC0033764FD2F9AC74A488E /* CanvasViewModel.swift in Sources */,
+				8C2A9B759DF5851C45DF1CAE /* CirclePreset.swift in Sources */,
 				055D1EC5E09CAEF0E2C30A10 /* DrawingParameters.swift in Sources */,
 				1D1C2F459F983C8ED3FAE94C /* DrawingPoint.swift in Sources */,
+				0CF13FB8731530A591D234E0 /* MeshPreset.swift in Sources */,
 				F5580CFDD36150E314C87F98 /* Preset.swift in Sources */,
 				E332AE13D76637F7BF88E578 /* PresetCategory.swift in Sources */,
 				69E40E071E0B57B28DD94C77 /* SKTCHApp.swift in Sources */,
 				05AFADDB4460059404778EF7 /* SquarePreset.swift in Sources */,
 				36550F87FD7CB9284CCE1B46 /* TouchOverlay.swift in Sources */,
+				195D963168FBFBFCF42A5584 /* TrianglePreset.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
