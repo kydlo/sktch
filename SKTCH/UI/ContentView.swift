@@ -46,13 +46,42 @@ struct ContentView: View {
     }
 }
 
-// MARK: - Stubs (replaced in Tasks 8, 9, 10)
-
 private struct ShareButton: View {
     let viewModel: CanvasViewModel
     let params: DrawingParameters
     let canvasSize: CGSize
+    @StateObject private var handler = ExportHandler()
+
     var body: some View {
-        Image(systemName: "square.and.arrow.up").foregroundColor(.secondary)
+        Button {
+            Task { await handler.export(viewModel: viewModel, params: params, canvasSize: canvasSize) }
+        } label: {
+            Image(systemName: "square.and.arrow.up")
+        }
+        .sheet(isPresented: $handler.showingShareSheet) {
+            if let image = handler.exportedImage {
+                ShareSheet(image: image)
+            }
+        }
+        .alert("Photos Access Required", isPresented: $handler.showingPermissionAlert) {
+            Button("Open Settings") {
+                if let url = URL(string: UIApplication.openSettingsURLString) {
+                    UIApplication.shared.open(url)
+                }
+            }
+            Button("Cancel", role: .cancel) {}
+        } message: {
+            Text("Allow SKTCH to save photos in Settings.")
+        }
     }
+}
+
+private struct ShareSheet: UIViewControllerRepresentable {
+    let image: UIImage
+
+    func makeUIViewController(context: Context) -> UIActivityViewController {
+        UIActivityViewController(activityItems: [image], applicationActivities: nil)
+    }
+
+    func updateUIViewController(_ vc: UIActivityViewController, context: Context) {}
 }
