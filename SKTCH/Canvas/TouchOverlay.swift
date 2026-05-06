@@ -16,7 +16,11 @@ struct TouchOverlay: UIViewRepresentable {
         return view
     }
 
-    func updateUIView(_ uiView: _TouchView, context: Context) {}
+    func updateUIView(_ uiView: _TouchView, context: Context) {
+        uiView.onTouchDown = onTouchDown
+        uiView.onTouchMoved = onTouchMoved
+        uiView.onTouchUp = onTouchUp
+    }
 
     class _TouchView: UIView {
         var onTouchDown: ((CGPoint, CGFloat) -> Void)?
@@ -38,11 +42,21 @@ struct TouchOverlay: UIViewRepresentable {
         }
 
         override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-            onTouchUp?()
+            let remaining = event?.allTouches?.filter {
+                $0.phase != .ended && $0.phase != .cancelled
+            }
+            if remaining?.isEmpty ?? true {
+                onTouchUp?()
+            }
         }
 
         override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-            onTouchUp?()
+            let remaining = event?.allTouches?.filter {
+                $0.phase != .ended && $0.phase != .cancelled
+            }
+            if remaining?.isEmpty ?? true {
+                onTouchUp?()
+            }
         }
     }
 }

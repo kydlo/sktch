@@ -63,16 +63,6 @@ private struct ShareButton: View {
                 ShareSheet(image: image)
             }
         }
-        .alert("Photos Access Required", isPresented: $handler.showingPermissionAlert) {
-            Button("Open Settings") {
-                if let url = URL(string: UIApplication.openSettingsURLString) {
-                    UIApplication.shared.open(url)
-                }
-            }
-            Button("Cancel", role: .cancel) {}
-        } message: {
-            Text("Allow SKTCH to save photos in Settings.")
-        }
     }
 }
 
