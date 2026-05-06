@@ -13,14 +13,33 @@
 		0CF13FB8731530A591D234E0 /* MeshPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DC11720ED91A11A3DEFC9 /* MeshPreset.swift */; };
 		195D963168FBFBFCF42A5584 /* TrianglePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A614A6F4DAB1BDC88393D5 /* TrianglePreset.swift */; };
 		1D1C2F459F983C8ED3FAE94C /* DrawingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590344C496DA5D5558ADB69E /* DrawingPoint.swift */; };
+		239508E05D71E63483E77C88 /* PresetRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100B8BC2E953CBFC695B4DB9 /* PresetRegistry.swift */; };
+		2BBDFC11E4488E011DEC6FEC /* PresetRegistryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22931A955E508F4723B618DC /* PresetRegistryTests.swift */; };
+		2D2994F65A7B615F5C6F976C /* OrbitPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6592B7D2A9CC843974454D /* OrbitPreset.swift */; };
 		36550F87FD7CB9284CCE1B46 /* TouchOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273AC3E3ADA010BEBAB9D47 /* TouchOverlay.swift */; };
+		4A96549B9BF8BA25AA80CDF3 /* JocabolaPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005AF2F56A27BE9E51E76720 /* JocabolaPreset.swift */; };
 		5B1E6CE1804B092F8744C073 /* DrawingParametersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2336E3E080D777AD354F63 /* DrawingParametersTests.swift */; };
 		5E1A0ABA0111CDAECE44000F /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE222B58340D8493096F6E60 /* CanvasView.swift */; };
+		6207F886B0658E89B1237A0B /* NetworkPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC4B6D37A9965DEED82B6E7 /* NetworkPreset.swift */; };
 		69E40E071E0B57B28DD94C77 /* SKTCHApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9613B988F401498102D85998 /* SKTCHApp.swift */; };
+		839E8E4A745717A0EF5B3AF7 /* PhasePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FEE1074784C3D5B14E845 /* PhasePreset.swift */; };
 		84844E4A1111296218E92C1F /* SKTCHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D842057E7F4E20FCC5AE899F /* SKTCHTests.swift */; };
 		8C2A9B759DF5851C45DF1CAE /* CirclePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B04E55892CE127749C57D1 /* CirclePreset.swift */; };
+		8D1DFCE1A6E57B180C01DA34 /* KiebitzPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D095326501E94BB9B1AD33 /* KiebitzPreset.swift */; };
+		982C9B079A1DE5F3B41959F5 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A785976D9500E38D7745846 /* ToolbarView.swift */; };
+		98977E7DB0C5F2A10C4490CE /* PresetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250831EA018937630D52350 /* PresetsView.swift */; };
+		BC6DB1E7D2F2739FBD6C39B5 /* AsendorfPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99A1624AFDAAB999B4D33FE /* AsendorfPreset.swift */; };
+		C2972A4887FFA25D1DADB923 /* PlanesPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75058BD145023D17CBDEED /* PlanesPreset.swift */; };
+		C526F89C0C0642AA3ADDD5AF /* Jocabola2Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75FB5649E3BBA4CB48D6C2D /* Jocabola2Preset.swift */; };
 		D504919794F24A7E98D639F7 /* CanvasViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC63DF9ED1D926660C83070 /* CanvasViewModelTests.swift */; };
+		D735384F376C88C56E11D629 /* ControlsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F199ABFCD875E24449E2F /* ControlsSheet.swift */; };
+		DB0EA174EDC52371A3E26A13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7FEC79E7CBB670C2A2298 /* ContentView.swift */; };
+		DC000BB7652EF02F287BE0C4 /* SplinePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68587F3DE809BA0D1D33D4B2 /* SplinePreset.swift */; };
+		DCD8648105D42C47688A7DEE /* ExportHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971A4373C82F872FF7F127E8 /* ExportHandler.swift */; };
+		E05D2FD12E8035C21E13DA6D /* AndreasPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA305E99C4576180F9F237 /* AndreasPreset.swift */; };
 		E332AE13D76637F7BF88E578 /* PresetCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F40C944C39DA6384FFEC86 /* PresetCategory.swift */; };
+		E9FE2219007D4B0151993AD8 /* CrossPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE34C115DF86B3310920EAA /* CrossPreset.swift */; };
+		ED204A55BBB5113842B01E7B /* SixPointsPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB562E940ECEA5F7194A1C /* SixPointsPreset.swift */; };
 		F5580CFDD36150E314C87F98 /* Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C93C504CDC03E56F01D473C /* Preset.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,23 +54,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005AF2F56A27BE9E51E76720 /* JocabolaPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JocabolaPreset.swift; sourceTree = "<group>"; };
+		0A785976D9500E38D7745846 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		100B8BC2E953CBFC695B4DB9 /* PresetRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetRegistry.swift; sourceTree = "<group>"; };
 		12A614A6F4DAB1BDC88393D5 /* TrianglePreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrianglePreset.swift; sourceTree = "<group>"; };
+		1ABB562E940ECEA5F7194A1C /* SixPointsPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixPointsPreset.swift; sourceTree = "<group>"; };
+		22931A955E508F4723B618DC /* PresetRegistryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetRegistryTests.swift; sourceTree = "<group>"; };
+		2A75058BD145023D17CBDEED /* PlanesPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanesPreset.swift; sourceTree = "<group>"; };
+		44B7FEC79E7CBB670C2A2298 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4CC63DF9ED1D926660C83070 /* CanvasViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModelTests.swift; sourceTree = "<group>"; };
 		50051B7412E516D8CF075B01 /* SKTCH.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SKTCH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542DC11720ED91A11A3DEFC9 /* MeshPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshPreset.swift; sourceTree = "<group>"; };
+		57D095326501E94BB9B1AD33 /* KiebitzPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiebitzPreset.swift; sourceTree = "<group>"; };
 		590344C496DA5D5558ADB69E /* DrawingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPoint.swift; sourceTree = "<group>"; };
+		5AE34C115DF86B3310920EAA /* CrossPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossPreset.swift; sourceTree = "<group>"; };
+		68587F3DE809BA0D1D33D4B2 /* SplinePreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplinePreset.swift; sourceTree = "<group>"; };
 		76B04E55892CE127749C57D1 /* CirclePreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePreset.swift; sourceTree = "<group>"; };
 		78223B67E5AD391DC6D71157 /* SquarePreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquarePreset.swift; sourceTree = "<group>"; };
+		7B6592B7D2A9CC843974454D /* OrbitPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitPreset.swift; sourceTree = "<group>"; };
+		862FEE1074784C3D5B14E845 /* PhasePreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhasePreset.swift; sourceTree = "<group>"; };
 		8C93C504CDC03E56F01D473C /* Preset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preset.swift; sourceTree = "<group>"; };
+		8CC4B6D37A9965DEED82B6E7 /* NetworkPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPreset.swift; sourceTree = "<group>"; };
 		9613B988F401498102D85998 /* SKTCHApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTCHApp.swift; sourceTree = "<group>"; };
+		971A4373C82F872FF7F127E8 /* ExportHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportHandler.swift; sourceTree = "<group>"; };
 		9BC684E4F10953B3BF7C438D /* SKTCHTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SKTCHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A273AC3E3ADA010BEBAB9D47 /* TouchOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchOverlay.swift; sourceTree = "<group>"; };
 		AE222B58340D8493096F6E60 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		B75FB5649E3BBA4CB48D6C2D /* Jocabola2Preset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jocabola2Preset.swift; sourceTree = "<group>"; };
+		C89F199ABFCD875E24449E2F /* ControlsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsSheet.swift; sourceTree = "<group>"; };
+		C99A1624AFDAAB999B4D33FE /* AsendorfPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsendorfPreset.swift; sourceTree = "<group>"; };
 		D842057E7F4E20FCC5AE899F /* SKTCHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTCHTests.swift; sourceTree = "<group>"; };
 		E5F40C944C39DA6384FFEC86 /* PresetCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetCategory.swift; sourceTree = "<group>"; };
 		E8ED28810BB49C51C60BD846 /* CanvasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
 		EE2336E3E080D777AD354F63 /* DrawingParametersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingParametersTests.swift; sourceTree = "<group>"; };
+		F250831EA018937630D52350 /* PresetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetsView.swift; sourceTree = "<group>"; };
 		F8328847D53D3D1536A98462 /* DrawingParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingParameters.swift; sourceTree = "<group>"; };
+		FBEA305E99C4576180F9F237 /* AndreasPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndreasPreset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -67,6 +105,10 @@
 		23DBEAF5305FA7B4002624FF /* Connected */ = {
 			isa = PBXGroup;
 			children = (
+				5AE34C115DF86B3310920EAA /* CrossPreset.swift */,
+				57D095326501E94BB9B1AD33 /* KiebitzPreset.swift */,
+				8CC4B6D37A9965DEED82B6E7 /* NetworkPreset.swift */,
+				1ABB562E940ECEA5F7194A1C /* SixPointsPreset.swift */,
 			);
 			path = Connected;
 			sourceTree = "<group>";
@@ -88,6 +130,7 @@
 			children = (
 				4CC63DF9ED1D926660C83070 /* CanvasViewModelTests.swift */,
 				EE2336E3E080D777AD354F63 /* DrawingParametersTests.swift */,
+				22931A955E508F4723B618DC /* PresetRegistryTests.swift */,
 				D842057E7F4E20FCC5AE899F /* SKTCHTests.swift */,
 			);
 			path = SKTCHTests;
@@ -96,6 +139,10 @@
 		7EEB2ED7E484F6FC00632305 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				44B7FEC79E7CBB670C2A2298 /* ContentView.swift */,
+				C89F199ABFCD875E24449E2F /* ControlsSheet.swift */,
+				F250831EA018937630D52350 /* PresetsView.swift */,
+				0A785976D9500E38D7745846 /* ToolbarView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -111,6 +158,9 @@
 		89A71BC6A22DCD4CD1C13C8A /* Expressive */ = {
 			isa = PBXGroup;
 			children = (
+				FBEA305E99C4576180F9F237 /* AndreasPreset.swift */,
+				C99A1624AFDAAB999B4D33FE /* AsendorfPreset.swift */,
+				2A75058BD145023D17CBDEED /* PlanesPreset.swift */,
 			);
 			path = Expressive;
 			sourceTree = "<group>";
@@ -118,6 +168,11 @@
 		8A2DAE361D349FF85B1E5D1B /* Organic */ = {
 			isa = PBXGroup;
 			children = (
+				B75FB5649E3BBA4CB48D6C2D /* Jocabola2Preset.swift */,
+				005AF2F56A27BE9E51E76720 /* JocabolaPreset.swift */,
+				7B6592B7D2A9CC843974454D /* OrbitPreset.swift */,
+				862FEE1074784C3D5B14E845 /* PhasePreset.swift */,
+				68587F3DE809BA0D1D33D4B2 /* SplinePreset.swift */,
 			);
 			path = Organic;
 			sourceTree = "<group>";
@@ -125,6 +180,7 @@
 		ABB51719BC66C75AC7C38091 /* Export */ = {
 			isa = PBXGroup;
 			children = (
+				971A4373C82F872FF7F127E8 /* ExportHandler.swift */,
 			);
 			path = Export;
 			sourceTree = "<group>";
@@ -145,6 +201,7 @@
 			children = (
 				8C93C504CDC03E56F01D473C /* Preset.swift */,
 				E5F40C944C39DA6384FFEC86 /* PresetCategory.swift */,
+				100B8BC2E953CBFC695B4DB9 /* PresetRegistry.swift */,
 				23DBEAF5305FA7B4002624FF /* Connected */,
 				89A71BC6A22DCD4CD1C13C8A /* Expressive */,
 				CB07BE27CC5EAC8A95D5F6EA /* Geometric */,
@@ -253,6 +310,7 @@
 			files = (
 				D504919794F24A7E98D639F7 /* CanvasViewModelTests.swift in Sources */,
 				5B1E6CE1804B092F8744C073 /* DrawingParametersTests.swift in Sources */,
+				2BBDFC11E4488E011DEC6FEC /* PresetRegistryTests.swift in Sources */,
 				84844E4A1111296218E92C1F /* SKTCHTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,16 +319,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05D2FD12E8035C21E13DA6D /* AndreasPreset.swift in Sources */,
+				BC6DB1E7D2F2739FBD6C39B5 /* AsendorfPreset.swift in Sources */,
 				5E1A0ABA0111CDAECE44000F /* CanvasView.swift in Sources */,
 				0CC0033764FD2F9AC74A488E /* CanvasViewModel.swift in Sources */,
 				8C2A9B759DF5851C45DF1CAE /* CirclePreset.swift in Sources */,
+				DB0EA174EDC52371A3E26A13 /* ContentView.swift in Sources */,
+				D735384F376C88C56E11D629 /* ControlsSheet.swift in Sources */,
+				E9FE2219007D4B0151993AD8 /* CrossPreset.swift in Sources */,
 				055D1EC5E09CAEF0E2C30A10 /* DrawingParameters.swift in Sources */,
 				1D1C2F459F983C8ED3FAE94C /* DrawingPoint.swift in Sources */,
+				DCD8648105D42C47688A7DEE /* ExportHandler.swift in Sources */,
+				C526F89C0C0642AA3ADDD5AF /* Jocabola2Preset.swift in Sources */,
+				4A96549B9BF8BA25AA80CDF3 /* JocabolaPreset.swift in Sources */,
+				8D1DFCE1A6E57B180C01DA34 /* KiebitzPreset.swift in Sources */,
 				0CF13FB8731530A591D234E0 /* MeshPreset.swift in Sources */,
+				6207F886B0658E89B1237A0B /* NetworkPreset.swift in Sources */,
+				2D2994F65A7B615F5C6F976C /* OrbitPreset.swift in Sources */,
+				839E8E4A745717A0EF5B3AF7 /* PhasePreset.swift in Sources */,
+				C2972A4887FFA25D1DADB923 /* PlanesPreset.swift in Sources */,
 				F5580CFDD36150E314C87F98 /* Preset.swift in Sources */,
 				E332AE13D76637F7BF88E578 /* PresetCategory.swift in Sources */,
+				239508E05D71E63483E77C88 /* PresetRegistry.swift in Sources */,
+				98977E7DB0C5F2A10C4490CE /* PresetsView.swift in Sources */,
 				69E40E071E0B57B28DD94C77 /* SKTCHApp.swift in Sources */,
+				ED204A55BBB5113842B01E7B /* SixPointsPreset.swift in Sources */,
+				DC000BB7652EF02F287BE0C4 /* SplinePreset.swift in Sources */,
 				05AFADDB4460059404778EF7 /* SquarePreset.swift in Sources */,
+				982C9B079A1DE5F3B41959F5 /* ToolbarView.swift in Sources */,
 				36550F87FD7CB9284CCE1B46 /* TouchOverlay.swift in Sources */,
 				195D963168FBFBFCF42A5584 /* TrianglePreset.swift in Sources */,
 			);
@@ -316,6 +392,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "SKTCH saves your artwork to the photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
@@ -341,6 +418,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "SKTCH saves your artwork to the photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
