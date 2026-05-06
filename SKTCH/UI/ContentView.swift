@@ -56,10 +56,3 @@ private struct ShareButton: View {
         Image(systemName: "square.and.arrow.up").foregroundColor(.secondary)
     }
 }
-
-
-struct ControlsSheet: View {
-    let params: DrawingParameters
-    let presetName: String
-    var body: some View { Text("Controls — coming in Task 9") }
-}
