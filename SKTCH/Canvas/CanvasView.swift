@@ -8,11 +8,11 @@ struct CanvasView: View {
         TimelineView(.animation) { _ in
             Canvas { context, size in
                 context.fill(Path(CGRect(origin: .zero, size: size)), with: .color(.white))
-                viewModel.activePreset.draw(
-                    points: viewModel.points,
-                    params: params,
-                    in: &context,
-                    size: size
+                for session in viewModel.completedSessions {
+                    session.preset.draw(points: session.points, params: params, in: &context, size: size)
+                }
+                viewModel.activeSession.preset.draw(
+                    points: viewModel.activeSession.points, params: params, in: &context, size: size
                 )
             }
         }
